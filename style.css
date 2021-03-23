@@ -1,0 +1,77 @@
+html {
+  font-size: 12px;
+  font-family: "Comic Sans MS";
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+.playerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+img {
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.playerHolder {
+  margin: 1rem 1rem 0 1rem;
+  border: 1px solid transparent;
+}
+
+.turnDisplay { 
+  font-size: 1.2rem;
+  width: 100%;
+  height: 1.2rem;
+  color: red;
+  font-weight: bold;
+}
+
+.container {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background: #e1e1e1;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.room {
+  width: 200px;
+  height: 200px;
+  background: #e1e1e1;
+  border: 1px solid black;
+  color: green;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.winnerMessage, .drawMessage{
+  position: fixed;
+  z-index: 1;
+  width: 606px;
+  height: 606px;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 5rem;
+}

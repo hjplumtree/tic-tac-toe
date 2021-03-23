@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <header>
+      <h1>TIC TAC TOE</h1>
+      <div class="playerContainer">
+        <div class="playerHolder" id="player1">
+          <div class="turnDisplay"></div>
+          <h3>PLAYER 1 (X)</h3>
+          <input class="playerName" type="text">
+        </div>
+        <div class="playContainer">
+          <img class="playButton" src="playButton.png" alt="play">
+        </div>
+        <div class="playerHolder" id="player2">
+          <div class="turnDisplay"></div>
+          <h3>PLAYER 2 (O)</h3>
+          <input class="playerName" type="text">
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      Provide player names to Start
+    </div>
+    <div>Icons made by <a href="" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <script src="app.js"></script>
+  </body>
 </html>
